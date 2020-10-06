@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.16/svg.min.js"></script>
+    <title>Heraldica</title>
+</head>
+<body id="lmao">
+    <div class="navigationSpace">
+        <p class="navigationSpaceHeraldica">Heraldica</p>
+        <ul>
+            <li>Home</li>
+            <li>Editor</li>
+            <li>Community</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <div class="objectSelectionSpace">
+        <ul>
+            <li>Shield <img src="./resources/ui/triangle.png" width="10px"></li>
+            <li>Add Division <img src="./resources/ui/triangle.png" width="10px"></li>
+            <li>Add Charge <img src="./resources/ui/triangle.png" width="10px"></li>
+            <li>Motto <img src="./resources/ui/triangle.png" width="10px"></li>
+        </ul>
+    </div>
+    <div class="objectPropertiesSpace">
+        <ul>
+            <li>Position
+                <div class="slider">
+                    <div class="sliderNotation">
+                        x
+                    </div>
+                    <div class="sliderSpace">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="sliderResult">
+                        50
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="sliderNotation">
+                        y
+                    </div>
+                    <div class="sliderSpace">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="sliderResult">
+                        50
+                    </div>
+                </div>
+            </li>
+            <li>Scale
+                <div class="slider">
+                    <div class="sliderSpace">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="sliderResult">
+                        70%
+                    </div>
+                </div>
+            </li>
+            <li>Rotation
+                <div class="slider">
+                    <div class="sliderSpace">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="sliderResult">
+                        0°
+                    </div>
+                </div>
+            </li>
+            <li>Colour</li>
+        </ul>
+    </div>
+    
+    <div class="canvasSpace">
+        
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

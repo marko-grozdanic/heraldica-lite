@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(200, 200, 200, 0.8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigationSpace{    
+    position: absolute;
+    background-color: rgba(164, 56, 56, 1);
+    width: 100%;
+    height: 5%;
+    top: 0;
+}
+
+.navigationSpace ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+}
+
+.navigationSpace ul li{
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.navigationSpaceHeraldica{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(10%, 50%);
+    color: white;
+    font-size: 1.5em;
+}
+
+.objectSelectionSpace{
+    position: absolute;
+    background-color: rgba(120, 120, 120, 1);
+    width: 15%;
+    height: 95%;
+    bottom: 0;
+    right: 0;
+}
+
+.objectSelectionSpace ul {
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+}
+
+.objectSelectionSpace ul li{
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3%;
+    background-color: gray;
+    width: 100%;
+}
+
+.objectSelectionSpace ul li img{
+    display: inline-block;
+    position: relative;
+}
+
+.objectPropertiesSpace{
+    position: absolute;
+    background-color: rgba(120, 120, 120, 1);
+    width: 15%;
+    height: 95%;
+    bottom: 0;
+}
+
+.objectPropertiesSpace ul {
+    position: absolute;
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+}
+
+.objectPropertiesSpace ul li{
+    font-size: 1.5em;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.canvasSpace{
+    background-color: rgba(200, 200, 200, 1);
+    position: absolute;
+    width: 70%;
+    height: 95%;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+}
+
+.canvas{
+    background-color: white;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+}
+
+.sliderNotation{
+    margin-right: 5%;
+    font-size: 0.7em;
+}
+
+.sliderResult{
+    margin-left: 5%;
+    font-size: 0.7em;
+}
+
